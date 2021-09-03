@@ -49,6 +49,10 @@ In dit voorbeeld zien we het gebruik van een **id selector** \(\#\). Als er in H
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
+Hoewel een ID selector een eenvoudige manier is om een bepaald element specifiek vorm te geven, wordt dit sterk afgeraden, behalve in bepaalde speciale gevallen. De voornaamste redenen waarom we tegenwoordig weinig of geen ID selectors gebruiken in CSS zijn omdat ze ongelooflijk specifiek zijn \(en dus moeilijk te overschrijven\), en omdat ze maar 1 keer per pagina mogen worden gebruikt. Ze zijn dus niet herbruikbaar.
+{% endhint %}
+
 ### Class selector
 
 In dit voorbeeld zien we het gebruik van een **class selector** \(.\). Als er in HTML _één of meerdere elementen_ \(classes kunnen meerdere keren gebruikt worden op een pagina\) de class 'bold' gebruiken, dan zal dit stukje CSS voor elk van die elementen geactiveerd worden.
@@ -127,5 +131,5 @@ Deze voorbeeldjes kan je terugvinden op onderstaande codepen, waarbij je zelf ka
 
 {% embed url="https://codepen.io/TroTi13/pen/KKqgPWV" caption="https://codepen.io/TroTi13/pen/KKqgPWV" %}
 
-
+{% embed url="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/Selectors" %}
 
