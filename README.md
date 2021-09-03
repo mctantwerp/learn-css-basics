@@ -16,6 +16,26 @@ Het schrijven van CSS kan op verschillende manieren, je hebt eigenlijk enkel een
 
 {% embed url="https://www.jetbrains.com/phpstorm/" %}
 
+### Browsers
+
+Bij het gebruik van deze cursus wordt sterk aangeraden om een moderne, up-to-date browser te gebruiken.
+
+{% hint style="info" %}
+Een handige tip: zet je browser in het Engels. De meeste informatie die je vind op het internet zal in het Engels zijn. Je zal in deze cursus ook heel wat Engelse termen tegenkomen \(met Nederlandstalige uitleg erbij natuurlijk\). Als je meer informatie wil vinden over bepaalde onderdelen van de cursus, of je loopt tegen bugs aan, zal je veel sneller informatie vinden in het Engels dan in het Nederlands.
+{% endhint %}
+
+De meest populaire browsers zijn:
+
+{% embed url="https://www.google.com/chrome/" %}
+
+{% embed url="https://www.mozilla.org/en-US/firefox/new/" %}
+
+{% embed url="https://www.microsoft.com/en-us/edge" %}
+
+{% embed url="https://www.apple.com/safari/" %}
+
+
+
 ### Oefenen
 
 Om het gebruik van CSS te oefenen, kan je ook gebruik maken van online tools. Een tool die ik persoonlijk heel handig vind om kleine experimenten te bouwen is CodePen. Hierop kan je kleine _pens_ maken waarbij je HTML, CSS en javascript kan gebruiken om bijvoorbeeld een oefening te maken. Zo'n _pen_ kan je delen met anderen via een link.
