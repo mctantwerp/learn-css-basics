@@ -15,3 +15,7 @@
 
 * [Gebruikte bronnen](appendix/gebruikte-bronnen.md)
 
+## CSS box model
+
+* [Intro](css-box-model/intro.md)
+* [Het model](css-box-model/het-model.md)
