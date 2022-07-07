@@ -16,9 +16,9 @@ In dit voorbeeld zien we drie elementen:
 2. een _eigenschap_ die je wil veranderen \(**property\)**: color
 3. wat de _waarde_ van die eigenschap moet zijn \(**value**\): red
 
-Met deze eenvoudige regel zeg je tegen een browser dat alle paragrafen \(&lt;p&gt;\) in de pagina, een rode tekstkleur moeten krijgen.
+Met deze eenvoudige regel zeg je tegen een browser dat alle paragrafen (`<p>`) in de pagina, een rode tekstkleur moeten krijgen.
 
-Natuurlijk hoef je niet voor elke property opnieuw een selector aanduiden, je kan meerdere properties tegelijk aanpassen. Een selector verzamelt één of meerdere properties binnen accolades \({ }\). Properties en values worden door middel van een dubbelpunt \(:\) gescheiden, en een regel wordt altijd afgesloten met een puntkomma \(;\).
+Natuurlijk hoef je niet voor elke property opnieuw een selector aanduiden, je kan meerdere properties tegelijk aanpassen. Een selector verzamelt één of meerdere properties binnen accolades (`{ }`). Properties en values worden door middel van een dubbelpunt (`:`) gescheiden, en een regel wordt altijd afgesloten met een puntkomma (`;`).
 
 ```css
 p {
@@ -31,27 +31,23 @@ Daarnaast kan je als selector ook specifieker elementen selecteren, door middel 
 
 ### ID selector
 
-In dit voorbeeld zien we het gebruik van een **id selector** \(\#\). Als er in HTML _één bepaald element_ \(een id mag maar 1x per pagina gebruikt worden\) het id 'green' heeft, dan zal dit stukje CSS geactiveerd worden.
+In dit voorbeeld zien we het gebruik van een **id selector** (`#`). Als er in HTML _één bepaald element_ (een id mag maar 1x per pagina gebruikt worden) het id 'green' heeft, dan zal dit stukje CSS geactiveerd worden.
 
-{% tabs %}
-{% tab title="CSS" %}
-```css
-#green {
-    color: green;
-}
-```
-{% endtab %}
+=== "CSS"
 
-{% tab title="HTML" %}
-```markup
-<p id="green">This text will have a green color</p>
-```
-{% endtab %}
-{% endtabs %}
+    ```css
+    #green {
+        color: green;
+    }
+    ```
 
-{% hint style="warning" %}
-Hoewel een ID selector een eenvoudige manier is om een bepaald element specifiek vorm te geven, wordt dit sterk afgeraden, behalve in bepaalde speciale gevallen. De voornaamste redenen waarom we tegenwoordig weinig of geen ID selectors gebruiken in CSS zijn omdat ze ongelooflijk specifiek zijn \(en dus moeilijk te overschrijven\), en omdat ze maar 1 keer per pagina mogen worden gebruikt. Ze zijn dus niet herbruikbaar.
-{% endhint %}
+=== "HTML"
+    ```html
+    <p id="green">This text will have a green color</p>
+    ```
+
+!!! warning ""
+    Hoewel een ID selector een eenvoudige manier is om een bepaald element specifiek vorm te geven, wordt dit sterk afgeraden, behalve in bepaalde speciale gevallen. De voornaamste redenen waarom we tegenwoordig weinig of geen ID selectors gebruiken in CSS zijn omdat ze ongelooflijk specifiek zijn \(en dus moeilijk te overschrijven\), en omdat ze maar 1 keer per pagina mogen worden gebruikt. Ze zijn dus niet herbruikbaar.
 
 ### Class selector
 
@@ -109,27 +105,27 @@ button[type="submit"] {
 
 Een pseudo class kan worden gebruikt om bepaalde states van je element vorm te geven. Elk element heeft standaard verschillende states waarin het zich kan bevinden. Een eenvoudig voorbeeld van zo'n state is bijvoorbeeld de _hover_, welke activeert als je met je muiscursor over een element beweegt. Als je muiscursor boven een element zweeft \(hovered\), dan activeert je browser de _hover_ state van dat element. Om deze state te kunnen vorm geven, maak je gebruik van een specifieke notatie, namelijk `:[state]` \(waarbij \[state\] vervangen wordt door de state die je wil vormgeven, bijvoorbeeld hover\).
 
-{% tabs %}
-{% tab title="CSS" %}
-```css
-a:hover {
-    font-weight: bold;
-}
-```
-{% endtab %}
+=== "CSS"
 
-{% tab title="HTML" %}
-```markup
-<a href="#">This is a link</a>
-```
-{% endtab %}
-{% endtabs %}
+    ```css
+    a:hover {
+        font-weight: bold;
+    }
+    ```
+
+=== "HTML"
+
+    ```html
+    <a href="#">This is a link</a>
+    ```
 
 ### Meer info
 
 Deze voorbeeldjes kan je terugvinden op onderstaande codepen, waarbij je zelf kan gaan spelen met de selectors.
 
-{% embed url="https://codepen.io/TroTi13/pen/KKqgPWV" caption="https://codepen.io/TroTi13/pen/KKqgPWV" %}
+<div class="grid cards" markdown>
 
-{% embed url="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/Selectors" %}
+- :material-codepen: [Codepen](https://codepen.io/TroTi13/pen/KKqgPWV){:target="_blank"}
+- :material-language-html5: [Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors){:target="_blank"}
 
+</div>
